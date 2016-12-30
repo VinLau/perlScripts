@@ -1,9 +1,9 @@
 # perlScripts
 Some perl scripts usually (but not always) related to bioinformatics (see READ ME)
 -----------------------------------------------------------------------------------------------------------------------------------------
-This repo will host a number of succinct perl scripts that will serve two purposes. 
-1) Be an autodidactical tool so that I may have a reference of the process and tools (i.e. built-in functions) that solved the problem.
-2) Show others how elegant solutions can automate routine tasks (I'm 100% open to suggestions and always looking to improve!).
+This repo will host a number of succinct perl scripts that will serve two purposes.   
+1) Be an autodidactical tool so that I may have a reference of the process and tools (i.e. built-in functions) that solved the problem.  
+2) Show others how elegant solutions can automate routine tasks (I'm 100% open to suggestions and always looking to improve!).  
 ** This readme will be regularly updated with notes and any particular comments about a particular perl script.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
