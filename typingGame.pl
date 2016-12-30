@@ -40,7 +40,6 @@ while ($flag2 == 1){
    elsif (length($answer) > length($testString)){
       $len = $testString;
    }
-   print "$len \n";
    for (my $k = 0; $k < length($len); $k++){
       if (substr($testString, $k, 1) eq substr($answer, $k, 1)){
          $subScore += 2;
