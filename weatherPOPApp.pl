@@ -45,7 +45,7 @@ print "\n The POP in the upcoming days in $town, ", $pro{uc($proRes)}, ": \n";
 print " @days \n ";
 print join("%   ", @POPs), "%\n";
 foreach my $item (@POPs){
-   if ($item > ($umbRating * 10)){
+   if ($item >= ($umbRating * 10)){
       print ' .^. ';
    }
 }
