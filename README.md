@@ -6,14 +6,17 @@ This repo will host a number of succinct perl scripts that will serve two purpos
 2) Show others how elegant solutions can automate routine tasks (I'm 100% open to suggestions and always looking to improve!).  
 ** This readme will be regularly updated with notes and any particular comments about a particular perl script.
 
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Notes as I have begun learning perl (for bioinformatics) via self-study and class:
 - The substr function is utilized extensively (especially within for loops). The substr function allows one to extract from a string N 
   number of characters at a specificed offset. Hence the value is that one is able to compare incremently one nucleotide from a DNA 
   sequence to another within a loop. 
 - For simplicity's sake (not efficiency), try to find a regex solution over a loop-substr solution like above.
 
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+To run these programs via terminal: > perl typingGame.pl 
+
 Script comments:
 typingGame.pl
 - This game is to showcase perl's extensive built-in functions that are particularly handy for string processing (nudge bioinformatics).
@@ -28,3 +31,13 @@ Script comments:
 decisionMatrix.pl
 - This program should serve useful to anyone trying to decide on a challenging issue (moving, choosing a partner, choosing a career). It is my belief that such large life-changing issues should hold some rational weight before the final decision. At the very least, it provides the person with the subjective feeling that they have consciously decided on their possible choices before deciding. Best of all, this matrix can be completed in mere minutes. How often do humans spend more (total) time deciding their dinner than their careers? Oftentimes large life choices are often imprinted via culture, peers, unconscious processing, and numerous other factors that we are oblivious to. 
 - This program was more challenging to create than it looked! First I had to keep track of many variables and use them in the correct manner to apply the correct calculation. However more challenging was the formating of the spaces in the matrix (which depends on the user's values). I also had to use two dimensional arrays to create arrays dynamically. It is convenient for memory that the matrix convention in Perl follows the same convention in math, that is Aij where i is the row and j is the column. Therefore we can just think of every j as an element in the i row. Or that every i row is an array. 
+
+Script comments:
+genbank Extractor and Database Creator Tool (folder) / genbankExtractAndDatabaseTool.pl
+- This program allows the user to extract certain fields (ORIGIN, ACCESSION) of GenBank records (specifically, separate .gb files that are contained in the same directory) to be added into a database (SQLite was tested here). Core Perl modules (DBI and Cwd) are used here. Some GenBank files are included for example.
+- I see a lot of potential for improvement/extension in this program such as:
+  - I used quite a few nested loops which are typically fairly inefficient. I should look into using some recursive functions (to potentially balance CPU and memory usage?) and/or scaling back a loop(s). 
+  - Add extensions for different databases such as Oracle or Postgres which use different data types and INSERT/CREATE SQL.
+  - Allow the user to 'regex' a desired keyterm to be parsed through the genBank files and create a new column.
+  - I do not believe (currently as of Jan 27 2017) there is a way to download multiple GenBank records as .gb files separately, instead NCBI outputs as a single .gb file. Thus it would be incredibly useful if I could modify this tool so that it would parse through a single .gb file and denote how many separate GenBank records it contains (perhaps count how many unique ACCESSION numbers there are?). 
+- One challenge of creating this program was automating the REGEX such that I do not have to create a REGEX for each field (for example /ACCESSION(.*?)VERSION/, however this is still necessary for some fields. Another was to creating the SQL statements which are interweaved with variables, that is I had to use a lot of string concatenation and even loops to create a simple CREATE statement. I suppose this is the trade-off that comes with automation. And I thought basic SQL (command-line) was finnicky! I have to type the right SQL statement via a database API of a programming language which I have not mastered, BAH!
