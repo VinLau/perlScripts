@@ -44,7 +44,7 @@ genbank Extractor and Database Creator Tool (folder) / genbankExtractAndDatabase
   - Add extensions for different databases such as Oracle or Postgres which use different data types and INSERT/CREATE SQL.
   - Allow the user to 'regex' a desired keyterm to be parsed through the genBank files and create a new column.
   - I do not believe (currently as of Jan 27 2017) there is a way to download multiple GenBank records as .gb files separately, instead NCBI outputs as a single .gb file. Thus it would be incredibly useful if I could modify this tool so that it would parse through a single .gb file and denote how many separate GenBank records it contains (perhaps count how many unique ACCESSION numbers there are?).
-- One challenge of creating this program was automating the REGEX such that I do not have to create a REGEX for each field
+- One challenge of creating this program was automating the REGEX such that I do not have to create a REGEX for each field:
 > /ACCESSION(.\*?)VERSION/
 
 however this is still necessary for some fields. Another was to creating the SQL statements which are interweaved with variables, that is I had to use a lot of string concatenation and even loops to create a simple CREATE statement. I suppose this is the trade-off that comes with automation. And I thought basic SQL (command-line) was finnicky! I have to type the right SQL statement via a database API of a programming language which I have not mastered, BAH!
