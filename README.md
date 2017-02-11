@@ -44,6 +44,7 @@ genbank Extractor and Database Creator Tool (folder) / genbankExtractAndDatabase
   - I used quite a few nested loops which are typically fairly inefficient. I should look into using some recursive functions (to potentially balance CPU and memory usage?) and/or scaling back a loop(s).
   - Add extensions for different databases such as Oracle or Postgres which use different data types and INSERT/CREATE SQL.
   - Allow the user to 'regex' a desired keyterm to be parsed through the genBank files and create a new column.
+<<<<<<< HEAD
   - <del>I do not believe (currently as of Jan 27 2017) there is a way to download multiple genbank records as .gb files separately, instead NCBI outputs as a single .gb file. Thus it would be incredibly useful if I could modify this tool so that it would parse through a single .gb file and denote how many separate genbank records it contains</del>. See genbank File Delimiter folder.
 - One challenge of creating this program was automating the REGEX such that I do not have to create a REGEX for each field (example):
 
@@ -51,12 +52,21 @@ genbank Extractor and Database Creator Tool (folder) / genbankExtractAndDatabase
    /ACCESSION(.\*?)VERSION/
    ```
 however this is still necessary for some fields. Another was to creating the SQL statements which are interweaved with variables, that is I had to use a lot of string concatenation and even loops to create a simple CREATE statement. I suppose this is the trade-off that comes with automation. And I thought basic SQL (command-line) was finnicky! I have to type the right SQL statement via a database API of a programming language which I have not mastered, BAH!
+=======
+  - I do not believe (currently as of Jan 27 2017) there is a way to download multiple GenBank records as .gb files separately, instead NCBI outputs as a single .gb file. Thus it would be incredibly useful if I could modify this tool so that it would parse through a single .gb file and denote how many separate GenBank records it contains (perhaps count how many unique ACCESSION numbers there are?).
+- One challenge of creating this program was automating the REGEX such that I do not have to create a REGEX for each field:
+
+      > /ACCESSION(.\*?)VERSION/
+
+  however this is still necessary for some fields. Another was to creating the SQL statements which are interweaved with variables, that  is I had to use a lot of string concatenation and even loops to create a simple CREATE statement. I suppose this is the trade-off that   comes with automation. And I thought basic SQL (command-line) was finnicky! I have to type the right SQL statement via a database API of  a programming language which I have not mastered, BAH!
+>>>>>>> 9c272ab7954e6b00ae264cd3b17699e8fd5cac0e
 
 Script comments:
 recursionBinarySearchTwoArgu.pl
 
 - This script is an introductory classical problem (Binary Search [a Divide and Conquer algorithm]) made slightly more difficult by applying recursion and restricting to only pass-through two arguments (the array by reference and the search key) in one subroutine/function. A lot of the examples I see online usually compare Binary Search to Linear Search in an iterative fashion (while loop), and take in the arguments of low, high, mid and the array. Creating this program taught me to apply three things: recursion, binary search, and the eval() built-in.
    - A key element in this program is the
+<<<<<<< HEAD
 
       ```perl
          eval('$arrayRef -> [$mid]' . $operatorEq . '$value')
@@ -80,3 +90,18 @@ genbank File Delimiter Tool (folder) / genbankFileDelimiterTool.pl
 - Made this script so one can easily download a bunch of genbank files from NCBI (from the 'send' option) which by default saves into a single .gb file named 'sequence.gb' and have the script split them into separate files, named by accession number. I included an example for 10 BRCA2 genbank files ('sequence.gb'). Put the downloaded file name in the same folder as the script and type the genbank file name in the command line:
 
 > perl genbankFileDelimiterTool.pl "sequence.gb"  
+=======
+      ```perl
+   eval('$arrayRef -> [$mid]' . $operatorEq . '$value')
+      ```
+   This built-in is often called 'string eval' as it executes whatever is between the parentheses as if it were a Perl program itself (it takes in outer lexical variables). It was useful because I tried to simply assign string and numeric operators depending on the contents of the arrays and perform:
+      ```perl
+   if($arrayRef -> [$mid]  $operatorEq  $value){ $rv = $mid }
+      ```
+   However, the Perl interpreter simply thinks $operatorEq is a string and cannot process the whole statement as a valid expression. With the eval() we can bypass this by creating a complete string that will be executed. Nonetheless perldocs has an extensive explanation of eval() http://perldoc.perl.org/functions/eval.html
+   - I learned good subroutine/function definition practice. Originally I had 'spaghetti' returns in that my recursion was a CALL-CALL-CALL(RETURN -> COLLAPSE CALL STACK)-(STATEMENTS -> RETURN)-(STATEMENTS -> RETURN). That is, I had an intermediate return (where it would collapse the stack when the key was found or the whole array was searched). After this return, a bunch of conditional statements based on that return value would execute to either return that value or another value. Simpler, elegant recursion should be: CALL-CALL-CALL(Collapse)-RETURN-RETURN-RETURN. So I had to redesign it such that return would be at the end of the subroutine and to adjust the return value within conditional statements above it.  
+   - Lastly the most difficult part of designing this script was to keep 'memory' of the index of the original array of the search key. This is so because the recursive function sends in a temporary sliced array to be procssed again for a binary search iteration. Therefore you could lose the integrity of the original array if you ever chop off the left hand side (WRT search key) of the array. The solution here was to send back information to the return value each time the return is sent if the array was chopped at that iteration. IE
+      ```perl
+   $rv = ($rv + $mid + 1) if $rv >= 0;
+      ```
+>>>>>>> 9c272ab7954e6b00ae264cd3b17699e8fd5cac0e
