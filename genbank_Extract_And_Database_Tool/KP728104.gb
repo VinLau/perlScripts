@@ -1,0 +1,52 @@
+LOCUS       KP728104                 463 bp    mRNA    linear   VRT 12-AUG-2015
+DEFINITION  Gobiocypris rarus fibroblast growth factor receptor 4 (fgfr4) mRNA,
+            partial cds.
+ACCESSION   KP728104
+VERSION     KP728104.1
+KEYWORDS    .
+SOURCE      Gobiocypris rarus
+  ORGANISM  Gobiocypris rarus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Gobiocypris.
+REFERENCE   1  (bases 1 to 463)
+  AUTHORS   Yuan,L.
+  TITLE     Cloning of cDNA fragments of the neurotrophin and the FGF family
+            genes in rare minnnow
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 463)
+  AUTHORS   Yuan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2015) Environment, Research Center for
+            Eco-Environmental Sciences, Chinese Academy of Sciences, Shuang
+            Qing Road, Beijing 100085, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..463
+                     /organism="Gobiocypris rarus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:143606"
+                     /tissue_type="brain"
+     gene            <1..>463
+                     /gene="fgfr4"
+     CDS             <1..>463
+                     /gene="fgfr4"
+                     /codon_start=2
+                     /product="fibroblast growth factor receptor 4"
+                     /protein_id="AKU79241.1"
+                     /translation="IRAAVMEIADVTYEDSGVYVCMLRGTKEALRNFTITVADAVGSG
+                     DDDEDNGIDDAGPETENDQVYISRAPYWTHTQRMEKKLYAVPAGNTVKFRCPATGNPL
+                     PAIRWLKNGREFRGEHRIGGIKLRHQHWSLVMESVVPSDRGNYSCVVENKYG"
+ORIGIN      
+        1 gataagagcg gcagtcatgg agattgcaga tgtcacctat gaagattcag gagtgtatgt
+       61 atgtatgctg cgtggcacca aagaggctct acgcaacttc actatcacag tggcagatgc
+      121 tgtaggatca ggagatgatg atgaggacaa tggtattgat gatgctggtc ctgagaccga
+      181 aaatgaccag gtctacatct ccagagcccc atattggact catactcaaa gaatggagaa
+      241 gaagctctac gcagtcccag ctggaaacac tgtcaaattc cgctgccctg ctacagggaa
+      301 ccctcttcca gccattcgct ggctaaagaa tggcagagaa ttcagagggg agcaccggat
+      361 cggaggcatc aagttacgac atcaacactg gagcctggtc atggagagtg tggttccctc
+      421 agaccgtggg aactacagtt gtgtggtgga gaacaaatat gga
+//
+

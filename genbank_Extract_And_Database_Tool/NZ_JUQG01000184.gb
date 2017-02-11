@@ -1,0 +1,111 @@
+LOCUS       NZ_JUQG01000184          285 bp    DNA     linear   CON 02-JAN-2017
+DEFINITION  [Enterobacter] aerogenes strain 86_EAER 482_285_3914_129__44__225_,
+            whole genome shotgun sequence.
+ACCESSION   NZ_JUQG01000184 NZ_JUQG00000000
+VERSION     NZ_JUQG01000184.1  GI:895984470
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN03198068
+            Assembly: GCF_001058645.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      [Enterobacter] aerogenes (Klebsiella mobilis)
+  ORGANISM  [Enterobacter] aerogenes
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Klebsiella.
+REFERENCE   1  (bases 1 to 285)
+  AUTHORS   Roach,D.J., Burton,J.N., Lee,C., Stackhouse,B., Butler-Wu,S.M.,
+            Cookson,B.T., Shendure,J. and Salipante,S.J.
+  TITLE     A Year of Infection in the Intensive Care Unit: Prospective Whole
+            Genome Sequencing of Bacterial Clinical Isolates Reveals Cryptic
+            Transmissions and Novel Microbiota
+  JOURNAL   PLoS Genet. 11 (7), E1005413 (2015)
+   PUBMED   26230489
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 285)
+  AUTHORS   Salipante,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-NOV-2014) Laboratory Medicine, University of
+            Washington, 1959 NE Pacific Street, Seattle, WA 98195, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            JUQG01000184.
+            Source DNA available from Steve Salipante, University of Washington
+            Department of Laboratory Medicine, Box 357110, 1959 NE Pacific
+            Street, NW120 Seattle, WA 98195-7110.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 01/02/2017 14:47:23
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 4.0
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 5,130
+            CDS (total)                       :: 5,093
+            Genes (coding)                    :: 4,866
+            CDS (coding)                      :: 4,866
+            Genes (RNA)                       :: 37
+            rRNAs                             :: 1, 1 (16S, 23S)
+            complete rRNAs                    :: 1 (16S)
+            partial rRNAs                     :: 1 (23S)
+            tRNAs                             :: 24
+            ncRNAs                            :: 11
+            Pseudo Genes (total)              :: 227
+            Pseudo Genes (ambiguous residues) :: 0 of 227
+            Pseudo Genes (frameshifted)       :: 59 of 227
+            Pseudo Genes (incomplete)         :: 140 of 227
+            Pseudo Genes (internal stop)      :: 57 of 227
+            Pseudo Genes (multiple problems)  :: 29 of 227
+            ##Genome-Annotation-Data-END##
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: ABYSS v. 1.3.5
+            Genome Coverage       :: 41x
+            Sequencing Technology :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..285
+                     /organism="[Enterobacter] aerogenes"
+                     /mol_type="genomic DNA"
+                     /strain="86_EAER"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:548"
+                     /country="USA: WA"
+                     /collected_by="UW clinical laboratory"
+     gene            <1..210
+                     /locus_tag="ADC52_RS25860"
+                     /pseudo
+     CDS             <1..210
+                     /locus_tag="ADC52_RS25860"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:YP_004594565.1"
+                     /note="incomplete; too short partial abutting assembly
+                     gap; missing start; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+     gene            183..>285
+                     /locus_tag="ADC52_RS25865"
+                     /pseudo
+     CDS             183..>285
+                     /locus_tag="ADC52_RS25865"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:YP_004594570.1"
+                     /note="incomplete; too short partial abutting assembly
+                     gap; missing stop; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+ORIGIN      
+        1 caggcctgcg gttttcatgt gcatattttc ccctgcgata aggtgcggat agtgcgttcc
+       61 tgcgtgctcc cgggggggcc ggttcagcca ggtcaacctg aatatccagt ccctcagtct
+      121 ccaccggact ggaaggaaag agctcagaaa atacttatca aacatatcag ggaggaagtt
+      181 gtatgtccga caccgcagac tccacgctga atgccctgaa ggcgcttatt gcggccttcc
+      241 agaccggcgc cactccggtc acggttaaag cctccaccgc agaag
+//
+

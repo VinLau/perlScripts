@@ -1,0 +1,64 @@
+LOCUS       GBYX01127887             501 bp    RNA     linear   TSA 02-DEC-2015
+DEFINITION  TSA: Poeciliopsis prolifica comp170078_c0_seq4 transcribed RNA
+            sequence.
+ACCESSION   GBYX01127887
+VERSION     GBYX01127887.1
+DBLINK      BioProject: PRJNA266248
+            BioSample: SAMN03160514, SAMN03160515, SAMN03160538, SAMN03160543,
+            SAMN03160544, SAMN03160545, SAMN03160546
+            Sequence Read Archive: SRR1639275, SRR1640127, SRR1640137,
+            SRR1640160, SRR1640171, SRR1640200, SRR1640216, SRR1640219
+KEYWORDS    TSA; Transcriptome Shotgun Assembly.
+SOURCE      Poeciliopsis prolifica (blackstripe livebearer)
+  ORGANISM  Poeciliopsis prolifica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Poeciliopsis.
+REFERENCE   1  (bases 1 to 501)
+  AUTHORS   Jue,N.K., Foley,R.J., Obergfell,C., Reznick,D.N., O'Neill,R.J. and
+            O'Neill,M.J.
+  TITLE     Parallel Evolution in Life History Adaptation Evident in the
+            Tissue-Specific Poeciliopsis prolifica transcriptome
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 501)
+  AUTHORS   Jue,N.K., O'Neill,R.J. and O'Neill,M.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-DEC-2014) Molecular and Cell Biology, University of
+            Connecticut, 354 Mansfield Rd., Storrs, CT 06269, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Trinity AUG-2013
+            Assembly Name         :: Poeciliopsis prolifica mulitple tissue
+                                     transcriptome
+            Sequencing Technology :: 454; Illumina MiSeq
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..501
+                     /organism="Poeciliopsis prolifica"
+                     /mol_type="transcribed RNA"
+                     /db_xref="taxon:188132"
+     gene            <1..>501
+                     /gene="FGFR4"
+     CDS             <1..>501
+                     /gene="FGFR4"
+                     /note="Fibroblast growth factor receptor 4, internal
+                     partial"
+                     /codon_start=2
+                     /product="FGFR4"
+                     /protein_id="JAO95426.1"
+                     /translation="DGPLYVLVEYASKGSLREYLRARRPPGLDYTFDVTKVPEEQLTF
+                     KDLLSCAYQVARGMEYLASKRCIHRDLAARNVLVTEDNVMKIADFGLARGVHQIDYYK
+                     KTTNGRLPVKWMAPEALFDRVYTHQSDVWSFGVLMWEIFTLGGSPYPGIPVEELFKLL
+                     KEGHRM"
+ORIGIN      
+        1 ggatggcccc ctgtacgtgc tggtggagta cgcctccaaa ggcagtttga gggagtacct
+       61 gcgggccagg cggcctccag gcctggatta cacctttgat gtgactaaag tgcctgagga
+      121 gcagctcacc ttcaaagacc tgctttcctg tgcctaccag gtggcccgag ggatggagta
+      181 cctggcctct aaaaggtgca tccacaggga cttggcagcc aggaacgtcc tggtgacgga
+      241 ggacaatgtg atgaagatcg cagacttcgg cctggccaga ggcgtccacc agatcgacta
+      301 ctacaagaaa accaccaacg gccggctgcc ggtgaaatgg atggcaccag aagctttgtt
+      361 tgacagagtc tacacccacc aaagcgacgt gtggtcgttc ggcgtcctga tgtgggagat
+      421 tttcacgctg ggtggttcgc cgtaccccgg catcccggtg gaggagctct ttaagctgct
+      481 gaaggaggga caccgcatgg a
+//
+

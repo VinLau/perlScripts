@@ -1,0 +1,651 @@
+LOCUS       HM146153                 883 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila yakuba strain Cascade21 BRCA2 (brca2) gene, partial cds.
+ACCESSION   HM146153
+VERSION     HM146153.1
+KEYWORDS    .
+SOURCE      Drosophila yakuba
+  ORGANISM  Drosophila yakuba
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 883)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 883)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..883
+                     /organism="Drosophila yakuba"
+                     /mol_type="genomic DNA"
+                     /strain="Cascade21"
+                     /db_xref="taxon:7245"
+                     /chromosome="2R"
+     gene            <1..>883
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>883
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>883
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=2
+                     /product="BRCA2"
+                     /protein_id="ADJ38824.1"
+                     /translation="VTEEYSANHSQVMKSTSKPIETLDVTNKEANLEVGEINAKFSPL
+                     KKESIPEPEFSGFRTASNKAIVISEKMKMKTAEFMAEFQSAESNQQNGYEVNQPNDTK
+                     SIEISKEMPSKVSKLVIDIKMEEPHDSNESTFMGFRTASNKAIEITEAMEKRGAMFLA
+                     QSKATDQQDAELTEELVFSEWQPSDLPDVASTSNDLTVAPINVEKTNTVDTKAAIESE
+                     FFGFRTASNKGIVISESTKVKAAQFMSEFQPVGPSSDSIKPIGIPEESKSTAAQFVEE
+                     VVAEDSPSKAPFYVQSQG"
+ORIGIN      
+        1 agtcactgag gaatactccg ctaatcatag tcaagtaatg aaatcaacat cgaaacccat
+       61 cgaaacattg gatgttacca acaaggaagc aaaccttgag gttggagaaa taaatgccaa
+      121 attcagtcct ctgaaaaagg agagcatacc agagcccgag ttttctggct tccgtacagc
+      181 ctcaaataaa gcaattgtaa tttctgaaaa gatgaaaatg aaaactgcag agtttatggc
+      241 tgagtttcag tccgcggagt ccaatcagca aaatggttat gaagtcaatc agccaaatga
+      301 cacgaaatca attgagattt caaaggaaat gccatcgaag gtttccaagt tggtcattga
+      361 tattaaaatg gaagaaccac atgactccaa tgaatcaacg tttatgggct ttagaacagc
+      421 gtcaaacaag gccattgaga ttacggaggc gatggagaag agaggagcca tgttcctcgc
+      481 ccagtcaaag gctacagacc aacaagacgc agaacttact gaggagctcg tttttagtga
+      541 atggcagcca agcgatcttc ctgatgttgc atccacctct aatgacctaa ctgtggctcc
+      601 nataaatgtt gaaaaaacca atactgtgga tacgaaagcc gctattgaaa gcgagttttt
+      661 tggttttcga acggcttcaa ataaaggaat tgtgatttct gaaagtacga aagtcaaagc
+      721 tgcgcagttt atgagtgaat ttcaacccgt tggtccaagt tctgactcga tcaaaccaat
+      781 tgggatccct gaggaatcga aaagtactgc tgcccagttc gtggaggaag tggtggcaga
+      841 agacagtccc agcaaagcac ctttttatgt acaaagtcaa gga
+//
+
+LOCUS       HM146152                 836 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain STO7 BRCA2 (brca2) gene, partial cds.
+ACCESSION   HM146152
+VERSION     HM146152.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 836)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 836)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..836
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="STO7"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>836
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>836
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>836
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38823.1"
+                     /translation="SQVMKSTSKPIETLDVTNKEAKLEVGEINAKCSPLKKESIAQPE
+                     FSGFRTASNKAIVISEKMKMKTAEFMTEFQSAESNQQNGYEVNQPNDTKSIEISKEMP
+                     SKVSKLVIDIKMEEPHDSNESTFMGFRTASNKAIEITEAMERRGAMFLAQSKQPSDLP
+                     DVASTSNDLTVTPINVEKTNIVDTKTAFESEFFGFRTASNKGIVISESTKVKAAQFMS
+                     EFQAVGPSTDSTKPIGIPEESKSTSAQFVEEVVAEDSPSKAPICDVQSQGNTSAIEHF
+                     HR"
+ORIGIN      
+        1 agtcaagtga tgaaatcaac atctaaaccc atcgaaacat tggatgttac caacaaggaa
+       61 gcaaagcttg aggttggaga aataaatgcc aaatgcagtc ctctgaaaaa ggagagcata
+      121 gcacagcccg agttttctgg cttccgtaca gcctcaaata aagcaattgt aatttctgaa
+      181 aagatgaaaa tgaaaactgc agagtttatg actgagtttc agtccgcgga atccaatcag
+      241 caaaatggtt atgaagtcaa tcagccaaat gacacgaaat caattgagat ttcaaaggaa
+      301 atgccatcga aggtttccaa gttggtcatt gatattaaaa tggaagaacc acatgactcc
+      361 aatgaatcaa cgtttatggg ctttagaaca gcgtcaaaca aggccattga gattaccgag
+      421 gcgatggaga ggagaggagc catgttcctg gcccagtcaa agcagcctag tgatcttcct
+      481 gatgttgcat ccacctctaa tgacctaact gtaactccaa taaatgttga aaaaaccaat
+      541 attgtggata cgaaaaccgc ttttgaaagc gagttttttg gttttcgcac ggcctcaaat
+      601 aaaggaattg tgatttctga aagtacgaaa gtcaaagctg cgcagtttat gagtgaattt
+      661 caagccgttg gcccaagtac tgactcaacc aaaccaattg ggatccctga ggaatcgaaa
+      721 agtacttctg cccagttcgt ggaggaagtg gtggcagaag acagtcccag caaagcaccc
+      781 atttgcgatg tacaaagtca aggaaatacc tcagctattg agcacttcca tcgcaa
+//
+
+LOCUS       HM146174                 741 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain STO18 BRCA2 (brca2) gene, partial cds.
+ACCESSION   HM146174
+VERSION     HM146174.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..741
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="STO18"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38845.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAELTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDKKTRTESEFFGFRTASNKGIVISEKMK
+                     MKTAEFMAEFQSAESNQQNGNEVHQPNDTESIEISKEMRSNTSKLVVDIKMKEPYEPT
+                     NAQDCCDSNESTFMGFRTASNKAIEFTEAMERRGAMFLAQSKQPSDLPDVASTSNDLT
+                     VTPINVEKTNIVDTKTAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcntcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctacg gaccaacagg acgcagaact tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac ctctaatgac
+      181 ctaactgtag ctccggtaaa tgttgaaaaa aacaatactg tcgataagaa aactagaact
+      241 gagagcgagt tttttggctt tcgcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggct gagtttcagt ccgcagaatc caatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc aaaggaaatg
+      421 cgatcgaata cttccaagtt ggtcgttgat attaaaatga aagaaccata tgaacccaca
+      481 aatgcccagg attgctgtga ctccaatgaa tcaacgttta tgggctttag aacagcgtca
+      541 aacaaagcca ttgagtttac cgaggcgatg gagaggagag gagccatgtt cctggcccag
+      601 tcaaagcagc ctagtgatct tcctgatgtt gcatccacct ctaatgacct aactgtaact
+      661 ccaataaatg ttgaaaaaac caatattgtg gatacgaaaa ccgcttttga aagcgagttt
+      721 tttggttttc gcacggcctc a
+//
+
+LOCUS       MMU89503                 407 bp    DNA     linear   ROD 26-JUL-2016
+DEFINITION  Mus musculus Brca2 (BRCA2) gene, partial cds.
+ACCESSION   U89503
+VERSION     U89503.1
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 407)
+  AUTHORS   McAllister,K.A., Ramachandran,S., Haugen-Strano,A., Fiedorek,F.T.
+            Jr. and Wiseman,R.W.
+  TITLE     Genetic mapping of the Brca2 breast cancer susceptibility gene on
+            mouse chromosome 5
+  JOURNAL   Mamm. Genome 8 (7), 540-541 (1997)
+   PUBMED   9196008
+REFERENCE   2  (bases 1 to 407)
+  AUTHORS   McAllister,K.A., Ramachandran,S., Haugen-Strano,A., Fiedorek,F.T.
+            and Wiseman,R.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-FEB-1997) LMC, N.I.E.H.S., 111 Alexander Drive,
+            Durham, NC 27709, USA
+FEATURES             Location/Qualifiers
+     source          1..407
+                     /organism="Mus musculus"
+                     /mol_type="genomic DNA"
+                     /strain="129Sv"
+                     /db_xref="taxon:10090"
+                     /chromosome="5"
+                     /map="distal to D5Mit51"
+                     /note="Sequence derived from subclone of mouse BAC 593D1
+                     (Research Genetics mouse BAC library)"
+     gene            <1..196
+                     /gene="BRCA2"
+     CDS             <1..>173
+                     /gene="BRCA2"
+                     /note="similar to human breast cancer susceptibility gene
+                     BRCA2"
+                     /codon_start=2
+                     /product="Brca2"
+                     /protein_id="AAC53276.1"
+                     /translation="ISTLKNKKRKFIYSVSDDASLQGKKLQTHRQLELTNLSAQLEAS
+                     AFEVPLTFTNVNS"
+     exon            <1..173
+                     /gene="BRCA2"
+                     /number=10
+     intron          174..>407
+                     /number=11
+ORIGIN      
+        1 gatatccact ctaaaaaata aaaaaagaaa gtttatttac tctgtaagtg atgatgcatc
+       61 tcttcaagga aaaaaactac agacacacag acagttagag cttactaatc tttcagccca
+      121 gcttgaagca agtgcttttg aagtaccatt gacctttaca aatgtaaatt caggtattat
+      181 tctttttttc ttctaatgta tatagtcttt aggatgagat taagttttcc tatttgaata
+      241 taagtttttt gttttttgaa ttttaagaga aacacttgct tactttctgt agtttttcag
+      301 atctcttttt ggtttggttt ggtttggttt ggtttggttt ggtttggtga gaaccctgtg
+      361 tagccctggc tgtcttagaa cttaggctgg cctggaactt agatatc
+//
+
+LOCUS       HM146172                 714 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain 2005.13 BRCA2 (brca2) gene, partial cds.
+ACCESSION   HM146172
+VERSION     HM146172.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 714)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 714)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..714
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="2005.13"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>714
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>714
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>714
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38843.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAELTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDKKTRTESEFLGFRTASNKGIVISEKMK
+                     MKTAEFMVEFQSAESNQQNGNEVHQPNDTESIEISKEMPSKVSKLVIDIKMEEPLDSN
+                     ESTFMGFRTASKKAIEITEAMERRGAMFLAQSKQPSDLPDVASTSNELTVTPINVEKT
+                     NTVDTKAAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcgtcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctacg gaccaacagg acgcagaact tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac ctctaatgac
+      181 ctaactgtag ctccagtaaa tgttgaaaaa aacaatactg tcgataagaa aactagaact
+      241 gagagcgagt ttcttggctt tcgcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggtt gagtttcagt ccgcggaatc taatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc aaaggaaatg
+      421 ccatcgaagg tttccaagtt ggtcattgat attaaaatgg aagaaccact tgactccaat
+      481 gaatcaacgt ttatgggctt tagaacagcg tcaaagaagg ccatcgaaat taccgaggcg
+      541 atggagagga gaggagccat gttcctggcc cagtcaaagc agccaagcga tcttcctgat
+      601 gttgcatcca cctctaatga gctaactgta actccaataa atgttgaaaa aaccaatact
+      661 gtggatacga aagccgcttt tgaaagcgag ttttttggtt ttcgcacggc ctca
+//
+
+LOCUS       HM146173                 741 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain CAR1566.9 BRCA2 (brca2) gene, partial
+            cds.
+ACCESSION   HM146173
+VERSION     HM146173.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..741
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="CAR1566.9"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38844.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAELTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDKKTRTESEFLGFRTASNKGIVISEKMK
+                     MKTAEFMAEFQSAESNQQNGNEVHQPNDTESIEISKEMRSNTSKLVVDIKMKEPYEPT
+                     NAQDCCDSNESTFMGFRTASNKSIEFTEAMERRGAMFLAQSKQPSDLPDVASTSNDLT
+                     VTPINVEKTNTVDTKAAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcgtcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctacg gaccaacagg acgcagaact tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac ctctaatgac
+      181 ctaactgtag ctccagtaaa tgttgaaaaa aacaatactg tcgataagaa aactagaact
+      241 gagagcgagt ttcttggctt tcgcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggct gagtttcagt ccgcagaatc caatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc aaaagaaatg
+      421 cgatcgaata cttccaagtt ggtcgttgat attaaaatga aagaaccata tgaacccaca
+      481 aatgcccagg attgctgtga ctccaatgaa tcaacgttta tgggctttag aacagcgtca
+      541 aacaaatcca ttgagtttac cgaggcgatg gagaggagag gagccatgtt cctggcccag
+      601 tcaaagcagc caagcgatct tcctgatgtt gcatccacct ctaatgacct aactgtaact
+      661 ccaataaatg ttgaaaaaac caatactgtg gatacgaaag ccgcttttga aagcgagttt
+      721 tttggctttc gcacggcctc a
+//
+
+LOCUS       HM146171                 741 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain 2005.12 BRCA2 (brca2) gene, partial cds.
+ACCESSION   HM146171
+VERSION     HM146171.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..741
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="2005.12"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38842.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAEHTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDMKTRTESEFFGFRTASNKGIVISEKMK
+                     MKTAEFMVEFQYAESNQQNGNEVHQPNDTESIEISKEMRSNTSKLVVDIKMKEPYEPT
+                     NAQDCCDSNESTFMGFRTASNKAIEFTEAMERRGAMFLAQSKQPSDLPDVASTSNDLT
+                     VTPINVEKTNTVDTKAAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcgtcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctaca gaccaacaag acgcagaaca tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac atctaatgac
+      181 ctaactgtag ctccngtaaa tgttgaaaaa aacaatactg tggatatgaa aactagaact
+      241 gagagcgagt tttttggctt tcgcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggtt gagtttcagt acgcggaatc taatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc taaagaaatg
+      421 cgatcgaata cttccaagtt ggtcgttgat attaaaatga aagaaccata tgaacccaca
+      481 aatgcccagg attgctgtga ctccaatgaa tcaacgttta tgggctttag aacagcgtca
+      541 aacaaagcca ttgagtttac cgaggcgatg gagaggagag gagccatgtt cctggcccag
+      601 tcaaagcagc caagcgatct tcctgatgtt gcatccacct ctaatgacct aactgtaact
+      661 ccaataaatg ttgaaaaaac caatactgtg gatacgaaag ccgcttttga aagcgagttt
+      721 tttggctttc gcacggcctc a
+//
+
+LOCUS       HM146169                 741 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain CAGO1495 BRCA2 (brca2) gene, partial
+            cds.
+ACCESSION   HM146169
+VERSION     HM146169.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..741
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="CAGO1495"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38840.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAEHTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDMRTRTESEFFGFSTASNKGIVISEKMK
+                     MKTAEFMAEFQSAESNQQNGNEVHQPNDTESIEISKEMRSNTSKLVVDIKIKEPYEPT
+                     NAQDCCDSNESTFMGFRTASNKAIEFTEAMERRGAMFLAQSKQPSDLPDVASTSNDLT
+                     VTPINVEKTNTVDTKAAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcgtcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctaca gaccaacaag acgcagaaca tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac atctaatgac
+      181 ctaactgtag ctccagtaaa tgttgaaaaa aacaatactg tggatatgag aactagaact
+      241 gagagcgagt tttttggctt tagcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggct gagtttcagt ccgcggaatc caatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc aaaagaaatg
+      421 cgatcgaata cttccaagtt ggtcgttgat attaaaataa aagaaccata tgaacccaca
+      481 aatgcccagg attgctgtga ctccaatgaa tcaacgttta tgggctttag aacagcgtca
+      541 aacaaagcca ttgagtttac cgaggcgatg gagaggagag gagccatgtt cctggcccag
+      601 tcaaagcagc caagcgatct tcctgatgtt gcatccacct ctaatgacct aactgtaact
+      661 ccaataaatg ttgaaaaaac caatactgtg gatacgaaag ccgcttttga aagcgagttt
+      721 tttggttttc gcacggcctc a
+//
+
+LOCUS       HM146170                 741 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain Quija650.14 BRCA2 (brca2) gene, partial
+            cds.
+ACCESSION   HM146170
+VERSION     HM146170.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..741
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="Quija650.14"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38841.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAELTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDKKTRTESEFFGFRTASNKGIVISEKMK
+                     MKTAEFMAEFQSAESNQQNGNEVHQPNDTESIEISKEMRSNTSKLVVDIKMKEPYEPT
+                     NAQDCCDSNESTFMGFRTASNKAIEFTEAMERRGAMFLAQSKQPSDLPDVASTSNDLT
+                     VTPINVEKTNIVDTKTAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcgtcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctacg gaccaacagg acgcagaact tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac ctctaatgac
+      181 ctaactgtag ctccngtaaa tgttgaaaaa aacaatactg tcgataagaa aactagaact
+      241 gagagcgagt tttttggctt tcgcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggct gagtttcagt ccgcagaatc caatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc aaaggaaatg
+      421 cgatcgaata cttccaagtt ggtcgttgat attaaaatga aagaaccata tgaacccaca
+      481 aatgcccagg attgctgtga ctccaatgaa tcaacgttta tgggctttag aacagcgtca
+      541 aacaaagcca ttgagtttac cgaggcgatg gagaggagag gagccatgtt cctggcccag
+      601 tcaaagcagc ctagtgatct tcctgatgtt gcatccacct ctaatgacct aactgtaact
+      661 ccaataaatg ttgaaaaaac caatattgtg gatacgaaaa ccgcttttga aagcgagttt
+      721 tttggttttc gcacggcctc a
+//
+
+LOCUS       HM146168                 741 bp    DNA     linear   INV 25-JUL-2016
+DEFINITION  Drosophila santomea strain 2005.2 BRCA2 (brca2) gene, partial cds.
+ACCESSION   HM146168
+VERSION     HM146168.1
+KEYWORDS    .
+SOURCE      Drosophila santomea
+  ORGANISM  Drosophila santomea
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Slip-sliding away: serial changes and homoplasy in repeat number in
+            the Drosophila yakuba homolog of human cancer susceptibility gene
+            BRCA2
+  JOURNAL   PLoS ONE 5 (6), E11006 (2010)
+   PUBMED   20543987
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 741)
+  AUTHORS   Bennett,S.M., Mercer,J.M. and Noor,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Biology, Duke University, Box 90338,
+            Durham, NC 27708, USA
+FEATURES             Location/Qualifiers
+     source          1..741
+                     /organism="Drosophila santomea"
+                     /mol_type="genomic DNA"
+                     /strain="2005.2"
+                     /db_xref="taxon:129105"
+                     /chromosome="2R"
+     gene            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+     mRNA            <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /product="DMBRCA2"
+     CDS             <1..>741
+                     /gene="brca2"
+                     /locus_tag="GE14413"
+                     /note="similar to Drosophila melanogaster CG30169"
+                     /codon_start=1
+                     /product="BRCA2"
+                     /protein_id="ADJ38839.1"
+                     /translation="GFRTASNKAIEITEAMERRGAMFLAQSKATDQQDAELTEELVFS
+                     EWQLSDLPDVASTSNDLTVAPVNVEKNNTVDMKTRTESELFGFRTASNKGIVISEKMK
+                     MKTAEFMAEFQSAESNQQNGNEVHQPNDTESIEISKEMRSNTSKLVVDIKMKEPYEPT
+                     NAQDCCDSNESTFMGFRTASNKAIEFTEAMERRGAMFLAQSKQPSDLPDVASTSNDLT
+                     VTPINDEKTNTVDTKAAFESEFFGFRTAS"
+ORIGIN      
+        1 ggctttagaa cagcgtcaaa caaggccatt gagattaccg aggcgatgga gaggagagga
+       61 gccatgttcc tggcccagtc aaaggctaca gaccaacaag acgcagaact tactgaggag
+      121 ctcgttttta gtgaatggca gctaagcgat cttcctgatg ttgcatccac atctaatgac
+      181 ctaactgtag ctccngtaaa tgttgaaaaa aacaatactg tggatatgaa aactagaact
+      241 gagagcgagt tatttggctt tcgcacggcc tcaaacaaag gaattgtgat ttctgaaaag
+      301 atgaaaatga aaactgcaga gtttatggct gagtttcagt ccgcagaatc caatcagcaa
+      361 aatggtaatg aagtccatca gccaaatgac acggaatcaa ttgagatttc aaaagaaatg
+      421 cgatcgaata cttccaagtt ggtcgttgat attaaaatga aagaaccata tgaacccaca
+      481 aatgcccaag attgctgtga ctccaatgaa tcaacgttta tgggctttag aacagcgtca
+      541 aacaaagcca ttgagtttac cgaggcgatg gagaggagag gagccatgtt cctggcccag
+      601 tcaaagcagc caagcgatct tcctgatgtt gcatccacct ctaatgacct aactgtaact
+      661 ccaataaatg atgaaaaaac caatactgtg gatacgaaag ccgcttttga aagcgagttt
+      721 tttggctttc gcacggcctc a
+//
+
