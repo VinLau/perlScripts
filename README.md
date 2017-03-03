@@ -79,3 +79,8 @@ genbank File Delimiter Tool / genbankFileDelimiterTool.pl
 ```
 > perl genbankFileDelimiterTool.pl "sequence.gb"
 ```
+
+Script comments:
+needlemanWunschAlignment.pl
+- This script is a classic bioinformatics alignment problem which uses the Needleman-Wunsch global approach (i.e. aligning all of the nucleotides in both sequences). Currently work in progress (need to include protein sequences, and traceback).
+- Of note is that this script can parse through GenBank (via the Genbank BioPerl module) Accession numbers to find your DNA sequence of interest on top manual entry. Remember that BioPerl 'Seq' are objects, not simple strings, if you need to retrieve the string, use a method call i.e. ```->seq```
