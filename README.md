@@ -46,7 +46,6 @@ genbank Extractor and Database Creator Tool (folder) / genbankExtractAndDatabase
   - Allow the user to 'regex' a desired keyterm to be parsed through the genBank files and create a new column.
   - <del>I do not believe (currently as of Jan 27 2017) there is a way to download multiple GenBank records as .gb files separately, instead NCBI outputs as a single .gb file. Thus it would be incredibly useful if I could modify this tool so that it would parse through a single .gb file and denote how many separate GenBank records it contains</del>. see genbank file delimiter tool
 - One challenge of creating this program was automating the REGEX such that I do not have to create a REGEX for each field:
-
       ```
       /ACCESSION(.\*?)VERSION/
       ```
@@ -57,21 +56,21 @@ recursionBinarySearchTwoArgu.pl
 
 - This script is an introductory classical problem (Binary Search [a Divide and Conquer algorithm]) made slightly more difficult by applying recursion and restricting to only pass-through two arguments (the array by reference and the search key) in one subroutine/function. A lot of the examples I see online usually compare Binary Search to Linear Search in an iterative fashion (while loop), and take in the arguments of low, high, mid and the array. Creating this program taught me to apply three things: recursion, binary search, and the eval() built-in.
    - A key element in this program is the
-
-      ```perl
+   
+   ```perl
    eval('$arrayRef -> [$mid]' . $operatorEq . '$value')
-      ```
+   ```
    This built-in is often called 'string eval' as it executes whatever is between the parentheses as if it were a Perl program itself (it takes in outer lexical variables). It was useful because I tried to simply assign string and numeric operators depending on the contents of the arrays and perform:
 
-      ```perl
+   ```perl
    if($arrayRef -> [$mid]  $operatorEq  $value){ $rv = $mid }
-      ```
+   ```
    However, the Perl interpreter simply thinks $operatorEq is a string and cannot process the whole statement as a valid expression. With the eval() we can bypass this by creating a complete string that will be executed. Nonetheless perldocs has an extensive explanation of eval() http://perldoc.perl.org/functions/eval.html
    - I learned good subroutine/function definition practice. Originally I had 'spaghetti' returns in that my recursion was a CALL-CALL-CALL(RETURN -> COLLAPSE CALL STACK)-(STATEMENTS -> RETURN)-(STATEMENTS -> RETURN). That is, I had an intermediate return (where it would collapse the stack when the key was found or the whole array was searched). After this return, a bunch of conditional statements based on that return value would execute to either return that value or another value. Simpler, elegant recursion should be: CALL-CALL-CALL(Collapse)-RETURN-RETURN-RETURN. So I had to redesign it such that return would be at the end of the subroutine and to adjust the return value within conditional statements above it.  
    - Lastly the most difficult part of designing this script was to keep 'memory' of the index of the original array of the search key. This is so because the recursive function sends in a temporary sliced array to be procssed again for a binary search iteration. Therefore you could lose the integrity of the original array if you ever chop off the left hand side (WRT search key) of the array. The solution here was to send back information to the return value each time the return is sent if the array was chopped at that iteration. IE
-      ```perl
+   ```perl
    $rv = ($rv + $mid + 1) if $rv >= 0;
-      ```
+   ```
 
 Script comments:
 genbank File Delimiter Tool / genbankFileDelimiterTool.pl
